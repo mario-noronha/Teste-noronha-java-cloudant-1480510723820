@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Teste-noronha-java-cloudant
+  host: Teste-noronha-java-cloudant
+  disk_quota: 1024M
+  services:
+  - Teste-noronha-java-cloudant-cloudantNoSQLDB
